@@ -1,5 +1,5 @@
 === mj Show More ===
-Contributors: meskat.jahan
+Contributors:meskat.jahan
 Tags: shortcode
 Requires at least: 3.1
 
