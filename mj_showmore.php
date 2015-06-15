@@ -33,6 +33,7 @@ add_shortcode('showmore', 'mj_showmore');
 
 function lwp_showmore_scripts(){
 		wp_enqueue_script('jquery');  
+		 wp_enqueue_style( 'mj_showmore-css', plugins_url( '/css/style.css', __FILE__ ));
 ?>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
@@ -52,9 +53,7 @@ jQuery(document).ready(function($) {
 });
 </script>
 
-<style type="text/css">
-.mjshowmore{display:none;}
-</style>
+
 <?php 
 
 
